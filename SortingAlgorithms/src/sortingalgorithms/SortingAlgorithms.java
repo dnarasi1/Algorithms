@@ -15,7 +15,12 @@ public class SortingAlgorithms {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int unsorted[] = {987,543,123,876,440,120,666};
+        SelectionSort select = new SelectionSort();
+        select.selection(unsorted, unsorted.length);
+        for(int i =0; i<unsorted.length;i++){
+            System.out.println(unsorted[i]);
+        }
     }
     
 }
