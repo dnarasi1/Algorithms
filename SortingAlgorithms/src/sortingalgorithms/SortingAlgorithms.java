@@ -15,9 +15,11 @@ public class SortingAlgorithms {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int unsorted[] = {987,543,123,876,440,120,666};
+        int unsorted[] = {9,8,7,6,5,4,3,2,1,0,-20,-40};
         SelectionSort select = new SelectionSort();
-        select.selection(unsorted, unsorted.length);
+        BubbleSort bub = new BubbleSort();
+        bub.bubble(unsorted, unsorted.length);
+        //select.selection(unsorted, unsorted.length);
         for(int i =0; i<unsorted.length;i++){
             System.out.println(unsorted[i]);
         }
