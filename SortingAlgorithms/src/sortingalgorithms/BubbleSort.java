@@ -9,6 +9,17 @@ package sortingalgorithms;
  *
  * @author dheeraj
  */
+
+/*
+    Compare the element with the next element and swap if the current element 
+is greater than next element. Do it until all the elements in the array is sorted.
+
+Time complexity: O(n^2)- Worst case
+                 O(n) - Best case
+Space complexity: O(1)
+
+
+*/
 public class BubbleSort {
     public void bubble(int[] unsorted, int length){
         for(int i =0; i<length-1;i++){
