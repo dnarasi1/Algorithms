@@ -23,11 +23,14 @@ Space complexity: O(1)
 public class BubbleSort {
     public void bubble(int[] unsorted, int length){
         for(int i =0; i<length-1;i++){
+            int checker = 0;
             for(int j =0; j<length-i-1;j++){
                 if(unsorted[j]>unsorted[j+1]){
                     swap(unsorted, j, j+1);
+                    checker =1;
                 }
             }
+            if(checker==0) break;
         }
     }
     public void swap(int[] unsorted, int a, int b){
