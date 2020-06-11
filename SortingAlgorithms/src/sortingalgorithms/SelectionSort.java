@@ -1,16 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package sortingalgorithms;
 
-/**
- *
- * @author Hello
- */
-
-/*
 Select the smallest element in the array and swap it with the first element of 
 the unsorted part of array. Do it until all the elements in the array is sorted.
 Time complexity: O(n^2): (Best case and worst case)
