@@ -12,8 +12,8 @@ public class SortingAlgorithms {
         //ins.insert(unsorted, unsorted.length);
         //bub.bubble(unsorted, unsorted.length);
         //select.selection(unsorted, unsorted.length);
-        MergeSort sort = new MergeSort();
-        sort.mergeSort(unsorted);
+        QuickSort sort = new QuickSort();
+        sort.solution(unsorted);
         for(int i =0; i<unsorted.length;i++){
             System.out.println(unsorted[i]);
         }
